@@ -33,6 +33,10 @@ const pointLight = new THREE.PointLight(0xff9000, .5, 3, 10);
 pointLight.position.set(1, -.5, 1);
 scene.add(pointLight);
 
+const rectAreaLight = new THREE.RectAreaLight(0x4e00ff, 2, 1, 1);
+scene.add(rectAreaLight)
+
+
 /**
  * Objects
  */
