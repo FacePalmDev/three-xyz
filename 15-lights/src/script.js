@@ -30,6 +30,7 @@ const hemisphereLight = new THREE.HemisphereLight(0xff0000, 0x0000ff, 0.5);
 scene.add(hemisphereLight);
 
 const pointLight = new THREE.PointLight(0xff9000, .5);
+pointLight.position.set(1, -.5, 1);
 scene.add(pointLight);
 
 /**
