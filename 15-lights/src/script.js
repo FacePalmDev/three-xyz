@@ -21,6 +21,8 @@ const scene = new THREE.Scene()
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambientLight);
 
+gui.add(ambientLight, 'intensity', 0, 1);
+
 /**
  * Objects
  */
