@@ -29,6 +29,9 @@ scene.add(directionalLight);
 const hemisphereLight = new THREE.HemisphereLight(0xff0000, 0x0000ff, 0.5);
 scene.add(hemisphereLight);
 
+const pointLight = new THREE.PointLight(0xff9000, .5);
+scene.add(pointLight);
+
 /**
  * Objects
  */
